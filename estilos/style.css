@@ -4,53 +4,67 @@
 
 h1{
 	text-align: center;
+	font-family: sans-serif;
+}
+
+h1:hover{
+	color: #fff;
 }
 
 body{
-	background-color: #0ff; 
+	background-color: #fff; 
 }
 
 .titulo{
 	padding: 25px;
-	background-color: #000;
-	color: #fff;
+	background-color: #CB3234;
+	color: #000;
 }
 
-#video1{
+.contenedor{
+	margin-top: 20px;
+	margin-left: 230px;
+
+}
+
+#video1, #video2, #video3, #video4, #video5, #video6, #video7, #video8, #video9, #video10, #video11, #video12{
+	display: block;
 	float: left;
-	width: 50%;
-	height: 25px;
-}
-
-#video2{
-	float: right;
-	width: 50%;
-	height: 25px;
-}
-
-#video3{
-	margin-left:330px;
-	width: 50%;
-	height: 25px;
-	
-}
-
-#video4{
-	
-	margin-left: 1000px;
-	width: 50%;
-	height: 25px;
+	margin-left: 15px;
+	margin-top: 15px;
+	border-radius: 10px;
+	border-radius: 10px;
+ 	overflow: hidden;
+    z-index: 1;
 }
 
 section{
-	background-color: #0ff;
+	background-color: #000;
 }
 
-.videos{
-	margin: 10px 10px 10px 10px;
-}
 
 footer{
-	margin-top: 300px;
+	position: flex;
+	margin-top: 5px;
 	text-align: center;
+	color: #000;
+	font-family: sans-serif;
+}
+
+.container-footer{
+	background-color: #CB3234;
+}
+
+.regresar{
+	margin-top: 700px;
+	background-color: #000;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #f8f32b;
 }
